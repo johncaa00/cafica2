@@ -1304,7 +1304,8 @@ nav.main-menu {
 .carousel-indicators li {
   width: 15px;
   height: 15px;
-  border-radius: 10px;
+  border: 0px;
+  /*border-radius: 10px; */
   background: #630000;
 }
 
@@ -1312,12 +1313,17 @@ nav.main-menu {
   padding: 0px 50px;
 }
 
+/* .carousel-item{
+  padding: 5% 5%;
+} */
+
 .carousel-control-next {
-  display: none;
+  right: 0;
+/*  display: none; */
 }
 
 .carousel-control-prev {
-  display: none;
+/*  display: none; */
 }
 
 /** about section **/
@@ -1440,7 +1446,7 @@ nav.main-menu {
   display: flex;
   align-content: center;
   align-items: center;
-  right: 0;
+  right: -12px;
   top: 27%;
   background: #630000;
   padding: 19px 25px;
@@ -1527,6 +1533,17 @@ nav.main-menu {
   flex-wrap: wrap;
 }
 
+.clients_bio {
+  background: #fff;
+  padding-bottom: 50px;
+  background: url(../images/fondo-02.png);
+  min-height: 978px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .cross_inner h3 {
   text-align: left;
   padding-left: 60px;
@@ -1548,7 +1565,7 @@ nav.main-menu {
 
 .testomonial_img figure img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 .testomonial_img i {
@@ -1655,9 +1672,9 @@ nav.main-menu {
 }
 
 .contact .contact_bg {
-  max-width: 541px;
+  /* max-width: 541px; */
   padding: 0;
-  padding: 60px 0px;
+  padding: 60px 10%;
 }
 
 .contact .contact_bg .contactus {
