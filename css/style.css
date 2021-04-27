@@ -1318,12 +1318,14 @@ nav.main-menu {
 } */
 
 .carousel-control-next {
-  right: 0;
-/*  display: none; */
+margin: 0 -12% 0 0;
+/* display: none; */
 }
 
 .carousel-control-prev {
-/*  display: none; */
+margin: 0 0 0 -12%;
+/* display: none; */
+
 }
 
 /** about section **/
